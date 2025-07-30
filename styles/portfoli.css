@@ -24,7 +24,7 @@ nav{
     color: #FFFFFF;
     font-weight: bold;
     padding:12px 36px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 20px;
     border: none;
 }
@@ -45,4 +45,45 @@ nav{
 .logo-clr{
     color: #4E47FF;
     font-size: 34px;
+}
+
+/*main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+/*main section1*/
+.section1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 159px 0px 141px;
+}
+.action{
+    max-width: 517px;
+}
+.header1{
+    font-weight: bold;
+    font-size: 45px;
+}
+.paragraph1{
+    font-size: 24px;
+    font-weight: regular;
+    color: #252432;
+}
+.picture1{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+/*main section2*/
+.section2{
+    background-color: #4E47FF;
 }
