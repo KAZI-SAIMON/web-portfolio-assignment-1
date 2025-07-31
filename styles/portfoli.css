@@ -93,7 +93,7 @@ main{
 .section2-header{
     margin-top: 50px;
     font-weight: bold;
-    font-size: 500px;
+    font-size: 50px;
 }
 .users{
     display: flex;
@@ -109,4 +109,8 @@ main{
 .note{
     color: #000000;
     font-size: 20px;
+}
+/* what our users say*/
+.comments{
+    display: flexbox;
 }
