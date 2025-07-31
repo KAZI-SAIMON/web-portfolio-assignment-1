@@ -75,6 +75,7 @@ main{
 .paragraph1{
     font-size: 24px;
     font-weight: regular;
+
     color: #252432;
 }
 .picture1{
@@ -85,5 +86,27 @@ main{
 
 /*main section2*/
 .section2{
-    background-color: #4E47FF;
+    background-color: rgba(78, 71, 255, 0.1);
+    text-align: center;
+    margin-top: 116px;
+}
+.section2-header{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 500px;
+}
+.users{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 80px;
+}
+.users-head{
+    border-radius: 24px;
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+.note{
+    color: #000000;
+    font-size: 20px;
 }
