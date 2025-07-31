@@ -111,6 +111,33 @@ main{
     font-size: 20px;
 }
 /* what our users say*/
+.comments-header{
+    font-weight: bold;
+    font-size:42px ;
+    text-align: center;  
+
+}
+
+
 .comments{
-    display: flexbox;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+/* section- ready to focua */
+.focus {
+    text-align: center;
+}
+.focus-header{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 71px 312px 20px 312px;
+}
+.focus-para{
+    color: rgba(0, 0, 0, 0.5);
+}
+.focus-img{
+    border-radius: 48px;
+    justify-content: space-around;
+    padding: 261px 150px 71px 150px;
 }
