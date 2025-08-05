@@ -31,10 +31,7 @@ nav{
 .banner {
     margin: 309px 267.5px 152px 267.5px;
 }
-.loki{
-    color: aquamarine;
-    margin-left: 20px;
-}
+
 .btn{
     background-color: blue;
     color: white;
@@ -140,4 +137,37 @@ main{
     border-radius: 48px;
     justify-content: space-around;
     padding: 261px 150px 71px 150px;
+}
+/*let's get in tuch*/
+.touch{
+    display: flex;
+    gap: 115px;
+}
+.touch-header{
+    font-size: 97px;
+    font-weight: bold;
+}
+.touch-content{
+    display: block;
+}
+.form{
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 32px;
+    margin-bottom: 30px;
+}
+/*Footer*/
+footer{
+    text-align: center;
+}
+footer h1{
+    color: #4E47FF;
+    font-size: 100px;
+}
+.footer-content{
+    color: #8987A1;
+}
+.footer-links{
+    text-decoration: none;
+    display: flex;
 }
